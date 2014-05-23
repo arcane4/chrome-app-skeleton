@@ -1,7 +1,7 @@
-chrome-app-skeleton
-===================
+chrome-app-serial
+=================
 
-This is a boilerplate that provides a skeleton Chrome App implementation. It is useful for starting a new Chrome App from scratch, without a bunch copy & paste.
+This is a simple Chrome App using the Chrome Serial API.
 
 ## Prerequisites
 * Git - Download and install [Git](http://git-scm.com/downloads).
@@ -21,6 +21,8 @@ Just run `install` command for bower to install the dependencies.
 ```sh
 $ bower install
 ```
+
+After installing the dependencies, you will need to use the `Load Unpacked Extension...` feature of Developer mode in the Extensions tab (Tools -> Extensions) in Chrome to install the application.
 
 ## Additional Packages
 * Twitter Bootstrap - Defined as bower module in the [bower.json](bower.json) file.
